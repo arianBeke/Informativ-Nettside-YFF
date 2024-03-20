@@ -1,0 +1,101 @@
+body{
+    background-color:#150050;
+    height: 190vh;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.logUt{
+    margin-left: 100px;
+    width: 100vw;
+    height: 100px;
+    position: relative;
+    bottom: 105px;
+}
+#knapp1{
+    background-color: #E90064;
+    color: white; 
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: solid black 2px;
+    transition-duration: 300ms;
+}
+#knapp1:hover{
+    scale: 1.15;
+    background-color: #94174d;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.header2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top:100px;
+}
+.textbox{
+    width: 60vh;
+    height: 100px;
+    border-radius: 10px;
+    border: solid black 2px;
+    background-color: #301E67;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageBoxes{
+    display: flex;
+    justify-content: space-around; 
+}
+.lesmer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#lesMer{
+    background-color: #E90064;
+    color: white; 
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid black 2px;
+    transition-duration: 300ms;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.imageBox2{
+    display: flex;
+    justify-content: space-around; 
+    position: relative;
+}
+#lesMer:hover{
+    scale: 1.15;
+    background-color: #94174d;
+    cursor: pointer;
+}
+img{
+    width: 60vh;
+    height: 40vh;
+    border: solid black 5px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px black;
+}
